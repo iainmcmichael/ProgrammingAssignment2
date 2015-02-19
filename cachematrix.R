@@ -23,7 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function solves the inverse if there is no cash
+## or it returns the cache if one exists.
 cacheSolve <- function(x, ...) {
 
     #n.b.  Assignment assume all matrices supplied are invertible
